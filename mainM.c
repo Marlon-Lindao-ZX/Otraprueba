@@ -15,7 +15,8 @@ int main(){
     //char *varS; //El * es para guardar un espacio de memoria
     char varString3[] = "Milca, ";
     char varString2[] = "Hola Mundo C\n";
-    //varS = 9;
+    char varString4;
+    //varS = 9;+ 1
 
     x = x + 1; //Suma
     x = x - 1;
@@ -33,6 +34,7 @@ int main(){
     printf("Valor numerico de f - %d\n",f);
     printf("Caracter de f - %c\n",f);
     
+    /*
     //Concatenar texto no se usa + sino strcat()
     //printf("%s \n",strcat(varString3,varString2));
     strcat(varString3,varString2);
@@ -41,6 +43,11 @@ int main(){
     printf("%s\n",varString3);
 	//Compilador >>gcc main.c
 	//Ejecutable >>./a.out 
-	
-	
+	//Add new comment
+	//Para que no se modifique la vaariables del primer string lo que debemos hacer es guardar el contenido de esa variable en otra variable, usando la funcion strcpy
+	*/
+	//strcy(varible temporal, var que tiene el contenido que quiero proteger)
+    strcpy(varString4,varString3);
+    strcat(varString4,varString2);
+    printf("var3 es %s y var 4 es %d\n",varString3,varString4);
 }
