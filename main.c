@@ -3,21 +3,61 @@
 
 int main(){
 
-    char *sed = NULL;
-
-    int x = 3;
-    int sd = 100;
-    
-    float y = 0;
-    double z = 0;
-    char a = 88;
+    char a = 88; 
     char f = 'f';
 
     short b = 0;
+
+    int x = 3;
+    int sd = 100;
+
     long c = 0;
     
+    float y = 0;
+    double z = 0;
 
-    char varString[100] = "Hola mundo";
+    char varString[100] = "primero";
+    char varString2[] = "Hola mundo";
+    char varString3[250] = "hola2";
+    char varString4[100];
+
+    strcpy(varString4, varString);
+
+    strcat(varString4,varString2);
+
+    x = x + 1; //Suma
+    x += 1;
+    x = x - 1; //Resta
+    x = x * 1; //Multiplicacion
+    x = x / 2; // Division
+    x = x % 2; // Modulo
+
+    x++; //incremento
+    x = 4;
+    int ex = ++x + 1;
+    printf("El resultado de ex es: %d y de x es: %d\n", ex, x);
+    
+    ++x;
+    x--; //decremento
+    --x;
+
+    printf("Valor numerico de f - %d\n", f);
+    printf("Caracter de f - %c\n", f);
+    
+
+    return 0;
+}
+
+
+
+
+/*
+char *sed = NULL;
+
+    
+    
+
+     = "Hola mundo";
     char varString2[] = "Hola mundo";
     char *varString3;
     char varString4[] = "hola2";
@@ -28,11 +68,7 @@ int main(){
     strcat(varString,varString2);
     printf("%s\n",varString);
 
-    x = x + 1; //Suma
-    x = x - 1; //Resta
-    x = x * 1; //Multiplicacion
-    x = x / 2; // Division
-    x = x % 2; // Modulo
+    
 
     a = 5 + 2;
 
@@ -41,4 +77,4 @@ int main(){
     printf("Caracter de a - %c\n", a);
     printf("Valor numerico de f - %d\n", f);
     printf("Caracter de f - %c\n", f);
-}
+*/

@@ -13,9 +13,9 @@ int main(){
 
     char varString[100];
     //char *varS; //El * es para guardar un espacio de memoria
-    char varString3[] = "Milca, ";
-    char varString2[] = "Hola Mundo C\n";
-    char varString4;
+    char varString3[100] = "Milca, ";
+    char varString2[100] = "Hola Mundo C\n";
+    char varString4[100];
     //varS = 9;+ 1
 
     x = x + 1; //Suma
@@ -44,10 +44,10 @@ int main(){
 	//Compilador >>gcc main.c
 	//Ejecutable >>./a.out 
 	//Add new comment
-	//Para que no se modifique la vaariables del primer string lo que debemos hacer es guardar el contenido de esa variable en otra variable, usando la funcion strcpy
+    //Para que no se modifique la vaariables del primer string lo que debemos hacer es guardar el contenido de esa variable en otra variable, usando la funcion strcpy
 	*/
-	//strcy(varible temporal, var que tiene el contenido que quiero proteger)
+    //strcy(varible temporal, var que tiene el contenido que quiero proteger)
     strcpy(varString4,varString3);
     strcat(varString4,varString2);
-    printf("var3 es %s y var 4 es %d\n",varString3,varString4);
+    printf("var3 es %s y var 4 es %s\n",varString3,varString4);
 }
