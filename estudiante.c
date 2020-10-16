@@ -5,6 +5,7 @@
 #include <string.h>
 
 /*Deber realizado por MARLON EDDIE LINDAO VARAS y VIELKA VERONICA VILLAVICENCIO VALLEJO*/
+hola mundo
 
 int main(){
 	curso_t curso;
