@@ -1,0 +1,10 @@
+			
+				Caracteres Especiales del printf:
+
+				%d --> valor numero entero
+				%ld --> valor numero entero grande
+				%f --> flotantes
+				%lf --> double
+				%c --> caracter solito
+				%s --> Cadena de Caracteres (Strings)
+
